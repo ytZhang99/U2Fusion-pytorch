@@ -32,7 +32,7 @@ The training data and testing data is from the [[SICE dataset]](https://github.c
 2. Place the training over-exposed images and under-exposed images in `dataset/train_data/over` and `dataset/train_data/under`, respectively.
 3. Run the following command to train your own model:
 ```
-python main.py --model mymodel
+python main.py --model mymodel.pth
 ```
 Or you can fine-tune the existing model based on your own dataset:
 ```
@@ -40,7 +40,7 @@ python main.py --model model.pth
 ```
 Moreover, if you want to test the model after training each epoch, run:
 ```
-python main.py --model mymodel --train_test
+python main.py --model mymodel.pth --train_test
 ```
 4. The generated model is placed in `./model/`, then you can test your model with:
 ```
@@ -58,5 +58,3 @@ The following paper might be cited:
   publisher={IEEE}
 }
 ```
-If you find this repository helpful in your research or publication, you may cite:
-
