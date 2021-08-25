@@ -13,7 +13,7 @@
 - pytorch_msssim
 
 ## 2. Dataset
-The training data and testing data is from the [[SICE dataset]](https://github.com/csjcai/SICE, "Official SICE").
+The training data and testing data is from the [[SICE dataset]](https://github.com/csjcai/SICE "Official SICE").
 
 ## 3. Quick Demo
 1. Clone this repository:
